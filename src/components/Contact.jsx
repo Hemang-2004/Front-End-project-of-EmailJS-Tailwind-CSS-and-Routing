@@ -33,16 +33,16 @@ const Contact = () => {
     //USING EMAILJS api 
     emailjs
       .send(
-        'service_ia6p28j',
-        'template_844oruq',
+        'service_k5slt8x',
+        'template_eneenfl',
         {
           from_name: form.name,
           to_name: "HS-Mail",
           from_email: form.email,
-          to_email: "goldjain3@gmail.com",
+          to_email: "hemangseth0411@gmail.com",
           message: form.message,
         },
-        'XYkNwM4dRRuMxdmUL'
+        '3fUtXkQjxuWHBPtMW'
       )
       .then(
         () => {
